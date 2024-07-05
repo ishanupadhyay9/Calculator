@@ -1,0 +1,172 @@
+
+
+h1{
+    font-size: 50px;
+    text-shadow: 1px 1px 3px white,-1px 1px 3px white;
+  
+    font-weight: 500;
+
+    
+}
+  
+*{
+    box-sizing: border-box;
+    padding :0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    overflow-y: hidden;
+}
+.cl{
+    
+}
+.cont{
+    height: 100vh;
+    width: 100vw;
+    display: block;
+   
+    overflow-y: hidden;
+    background: linear-gradient(to bottom,rgb(51, 51, 51), rgb(62, 8, 62),rgb(49, 5, 49));
+
+}
+.calc{
+     transform: translateX(-10px);
+    height: 600px;
+    width : 450px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: rgb(89, 111, 146);
+    align-items: center;
+    border-radius: 40px;
+    padding: 20px;
+    border: 5px solid ;
+   margin-top: 10px;
+   box-shadow: 0px 0px 100px rgba(123, 123, 123, 0.753);
+}
+.screen{
+    display: inline-block;
+    width :90%;
+    height: 150px;
+    margin: 2px;
+     border-radius:15% 15% 0 0;
+    background-color: white;
+    border: 4px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: right;
+    padding-top: 30px;
+    margin-top: 20px;
+    color: black;
+    overflow-x: scroll;
+    
+
+}
+
+.bsup{
+    width: 100%;
+}
+.bt1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    margin-top: 20px;
+    align-self: center;
+    
+    justify-content: center;
+    
+
+
+}
+.bt2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+
+  align-self: center;
+  justify-items: center;
+  justify-content: center;
+  
+
+}
+.bt1 button{
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(49, 29, 148);
+    color: rgb(63, 220, 234);
+    border: 3px solid;
+    margin:5px;
+    text-align: center;
+align-self: center;
+font-size: larger;
+font-weight: bolder;
+
+    border-radius: 20px;
+}
+.n2 {
+height: 60px;
+width: 60px;
+place-self: center;
+background-color: rgb(64, 218, 218);
+margin: 5px;
+margin-top: 10px;
+border-radius: 25%;
+text-align: center;
+align-self: center;
+font-size: larger;
+font-weight: bolder;
+color: rgb(49, 29, 148);
+border: 3px solid;
+
+
+}
+button{
+  position: relative;
+  transition: all 300ms;
+}
+
+
+button:hover{
+   color: aliceblue;
+   background-color: orange;
+   transform: scale(1.05);
+}
+
+.ic {
+    height: 60px;
+    width: 60px;
+    place-self: center;
+    background-color: rgb(145, 38, 199);
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 25%;
+    text-align: center;
+    align-self: center;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(190, 187, 187);
+    border: 3px solid;
+    
+    
+    }
+    .screen2{
+        display: inline-block;
+        width :90%;
+        height: 150px;
+        margin: 2px;
+         border-radius:15% 15% 0 0;
+        background-color: rgb(39, 39, 39);
+        border: 4px solid white;
+        padding: 10px;
+        font-size: 30px;
+        text-align: right;
+        padding-top: 30px;
+        margin-top: 20px;
+        color: white;
+        text-wrap: wrap;
+        overflow-x: scroll;
+        
+    }
